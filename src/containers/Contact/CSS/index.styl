@@ -1,0 +1,106 @@
+.contact
+    min-height 100vh
+    background #222
+    display flex
+    align-items: center
+    position relative
+
+.contact-container
+    display flex
+    flex-wrap wrap
+    justify-content: center
+    align-items center
+    width 70%
+    background #f4f4f4
+    margin 50px auto
+    position relative
+    border-radius: 10px
+    padding 10px
+.contact-box
+    font-family: "Raleway", Arial, Helvetica, sans-serif
+    padding 20px
+    color #333
+    min-height: 500px
+    display flex
+    align-items center
+    &:nth-child(1)
+        flex 30%
+    &:nth-child(2)
+        flex  1 50%
+
+.contact-content 
+    margin: 10px
+    min-height: 250px
+    width 100%
+    span 
+        font-size rfs(1.5rem)
+        font-family: "Raleway", Arial, Helvetica, sans-serif
+        font-weight: 900
+        text-align center
+        display block
+        margin-bottom 30px
+
+.contact-title
+    font-size 1rem
+    position: absolute
+    top 100px
+    left 45%
+    right 50%
+    z-index: 99
+.form-main 
+    display block
+    width 100%
+.form-input
+    display block
+    width 100%
+    margin-top 10px
+  
+.form-input > label
+    display block
+    margin-bottom 3px
+    font-weight: 400
+    font-size rfs(0.95rem)
+.form-input  input 
+    width 100%
+    display: block
+    padding 5px
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif
+    border-radius: 5px
+    border 1px solid rgba(0,0,0,.2)
+    &:focus
+        border 1px solid rgba(0,0,0,.5)
+        outline none
+.form-input textarea 
+    display block
+    width 100%
+    resize: none
+    height 200px
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif
+    padding 10px
+    border 1px solid rgba(0,0,0,.2)
+    border-radius: 5px;
+    outline none
+    &:focus 
+        border 1px solid rgba(0,0,0,.5)
+        border-radius: 5px;
+
+
+.contact-btn 
+    width 100%
+    padding 10px
+    font-family: "Raleway", Arial, Helvetica, sans-serif
+    margin-top 10px;
+    border none 
+    background rgb(245,30, 0)
+    cursor pointer
+    color #f4f4f4
+
+
+.contact-btn:hover 
+    opacity .5
+
+@media screen and (max-width 968px)
+    .contact-container
+        width 100%
+        margin 0 auto
+        border-radius: 0

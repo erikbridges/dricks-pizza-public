@@ -1,0 +1,75 @@
+.home 
+    min-height 100vh
+
+.home-main 
+    position relative
+    height 100vh
+    overflow: hidden
+    > img 
+        position absolute
+        top 0
+        bottom 0 
+        left 0 
+        right 0
+        width 100%
+        min-height 100vh
+        min-height 600px
+        overflow-x hidden
+        z-index: -1
+
+.home-header
+    z-index: 997
+    position absolute
+    top 15%
+    right 5%
+    z-index: 1
+    max-width 40%
+    border-radius: 50px
+    font-family: "Raleway", Arial, Helvetica, sans-serif
+    text-transform: uppercase
+    text-align: center
+    color #f4f4f4
+    text-shadow 2px 2px 10px rgba(0,0,0,.5)
+    padding 20px
+  
+
+.home-header h1 
+    text-align: right
+    margin 0 auto
+    margin-top 30px
+    display: block
+    margin-right: auto
+    font-size rfs(4.5rem)
+    font-weight: 900
+.home-header button 
+    display block
+    padding 20px
+    font-size rfs(1rem)
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif
+    font-weight: 700
+    margin-left: auto
+    margin-top: 30px
+    background #c22d00
+    border none
+    color #ddd
+    cursor pointer
+    border-radius: 50px
+    &:hover 
+        opacity .5
+.home-header span 
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif
+    font-style: italic
+    font-weight: 400
+    text-transform capitalize
+    text-shadow 2px 2px 10px rgba(0,0,0,.8)
+    font-size rfs(1rem)
+    width: 100%
+    display block
+    margin-left auto
+    margin-top 10px
+    padding 10px
+    text-align right 
+
+@media screen and (max-width 968px)
+    .home-header 
+        max-width 70%

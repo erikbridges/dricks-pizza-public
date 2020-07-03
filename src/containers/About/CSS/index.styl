@@ -1,0 +1,68 @@
+.about-main
+    position relative
+    height 100vh
+    max-height: 100vh;
+    z-index: -100
+    &:before 
+        content ""
+        position absolute 
+        right 0
+        top 0
+        bottom 0
+        left 0
+        width 100%
+        height 100vh
+        z-index 850
+    &:after 
+        content ""
+        position absolute 
+        left 0
+        background #f4f4f4
+        width 100%
+        height 40px
+        z-index 820
+.about-image
+    width 100%
+    position absolute
+    top 0
+    left 0
+    right 0 
+    bottom 0
+    overflow hidden
+    max-height: 100vh
+    min-height: 700px
+
+.about-header 
+    position absolute
+    z-index: 820
+    background rgba(0,0,0,1)
+    color #f4f4f4
+    font-family: "Raleway", Arial, Helvetica, sans-serif
+    width 60%
+    height 100vh
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-wrap: wrap
+
+.about-title 
+    flex 100%
+    margin-top auto
+    text-align: center
+    h1
+        font-family: "Raleway", Arial, Helvetica, sans-serif
+        font-weight: 900
+        font-size rfs(3rem)
+        margin-top 40px
+
+.about-content 
+    display flex 
+    justify-content: space-around
+    p 
+        padding 20px
+        line-height: 1.4em
+
+
+@media screen and (max-width 968px)
+    .about-header  
+        width 100%  

@@ -1,0 +1,117 @@
+.navbar-main
+    display flex
+    align-items center
+    justify-content flex-end
+    background transparent
+    position: fixed
+    left 0
+    right 0
+    z-index: 999
+    transition .2s ease-in
+
+.navbar-main.scroll 
+    z-index: 999
+    background rgba(53,53,53, .9)
+    transition .2s ease-in
+
+
+
+.navbar-main a
+    padding 30px
+    padding-top 40px
+    font-family "Raleway", Arial, Helvetica, sans-serif
+    font-weight 700
+    text-transform uppercase
+    letter-spacing: 4px
+    transition .2s ease-in
+    color: #FFF
+    font-size rfs(15px)
+    text-shadow: 2px 2px 5px #333;
+    text-decoration: none 
+
+.navbar-main a:hover
+    opacity .5
+    cursor pointer
+    transition .2s ease-in
+
+.logo 
+    margin-right auto
+    max-width 150px
+    position: absolute
+    left 0
+    top 5px
+    transition .2s ease-in
+
+.logo img 
+    display block
+    width 100%
+    padding 10px
+
+.logo.scroll 
+    max-width: 100px
+    position static
+    top 0
+    transition .2s ease-in
+
+// Mobile Version
+.navbar-main-mobile
+    display flex
+    align-items center
+    position fixed
+    z-index 999
+    left 0
+    right 0
+    justify-content: center
+
+.navbar-main-mobile.scroll
+    background rgba(0,0,0, 1)
+.navbar-collapse 
+    margin-left auto 
+    display block
+    order 2
+    padding 20px
+    cursor pointer
+    transition .3s ease-in
+    &:hover 
+        opacity .5
+.navbar-collapse span 
+    width 30px
+    background #f4f4f4
+    display block
+    margin 2px
+    height 6px
+
+.navbar-mobile-main 
+    position fixed
+    top 0
+    bottom 0
+    width 50%
+    background #000
+    height 100vh
+    z-index: 998
+    display flex
+    align-items center
+    transform: translateY(500px)
+    overflow hidden
+    transition .3s ease-in
+
+
+.navbar-container 
+    margin-top 50px
+    width 100%
+    overflow hidden
+.navbar-container a
+    color #f4f4f4
+    display block
+    width 100%
+    padding 20px
+    font-family: "Raleway", Arial, Helvetica, sans-serif
+    text-decoration: none 
+.navbar-container a:hover 
+    background #f4f4f4
+    color #000
+    cursor pointer
+
+.navbar-mobile-main.collapse
+     transform: translateY(0px)
+
