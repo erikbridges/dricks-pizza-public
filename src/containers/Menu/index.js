@@ -34,19 +34,19 @@ import ScrollableAnchor from "react-scrollable-anchor";
                             <div className={styles["images-box-mobile"]}>
                                 <img src="./public/images/pizza-bg.jpg" alt="pizza image"/>
                                 <div className={styles["menu-title-mobile"]}>
-                                    <h1>Pizza</h1>
+                                    <h1>Carry Out</h1>
                                 </div>
                             </div>
                             <div  className={styles["images-box-mobile"]}>
                                 <img src="./public/images/bread-bg.jpg" alt="Bread Image"/>
                                 <div className={styles["menu-title-mobile"]}>
-                                    <h1>Bread</h1>
+                                    <h1>Delivery</h1>
                                 </div>
                             </div>
                             <div className={styles["images-box-mobile"]}>
                                 <img src="./public/images/sub-bg.jpg" alt="sub image"/>
                                 <div className={styles["menu-title-mobile"]}>
-                                    <h1>Sandwhiches</h1>
+                                    <h1>Dine In</h1>
                                 </div>
                             </div>
                         </div>
